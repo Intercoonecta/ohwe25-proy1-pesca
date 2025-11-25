@@ -16,6 +16,7 @@ library(sp)         # Clases y métodos para datos espaciales
 library(lubridate)  # Manipulación fácil de fechas 
 library(PBSmapping) # Mapeo de datos pesqueros y herramientas de análisis espaciales
 library(raster)
+library(satin)
 ```
 
 ## Importar datos
@@ -23,7 +24,7 @@ library(raster)
 Los datos descargados y ya descomprimidos se encuentran en la carpeta `data` de este tutorial. Usamos la función `read.csv()` que solo requiere especificar la ruta y nombre del archivo.
 
 ```{r}
-pic <- read.csv("C:/Users/jeuee/Documents/1.Cursos/7.Hackaton2025/PublicPSSharkSetType.csv")
+pic <- read.csv("./data/PublicPSSharkSetType.csv")
 ```
 
 Podemos explorar los datos con la función `head()` que muestra los primeros registros de estos. El contenido de cada cada columna puede consultarse en el archivo `PSBillfish-Picudos.pdf` mencionado antes.
@@ -68,7 +69,8 @@ plot(pic$lon[pic$FALn == 0], pic$lat[pic$FALn == 0], pch = 16, col = rgb(1, 0, 0
 ```
 
 ```{r}
-copdata <- read.cmems("C:/Users/jeuee/Documents/1.Cursos/7.Hackaton2025/cmems_mod_glo_phy_my_0.083deg_P1M-m_1764094649118.nc")
+library(satin)
+copdata <- read.cmems("D:/ohwe2025/cmems_mod_glo_phy_my_0.083deg_P1M-m_1764099561632.nc")
 
 
 
@@ -79,10 +81,24 @@ plot(copdata$thetao)
 
 ```
 
+thetao.mean \<- thetao
+
 ```{r}
-thetao <- climatology(copdata$thetao) 
+#thetao <- climatology(copdata) 
+#thetao.mean <- thetao
 
+#thetao.mean@data <- thetao@data[ , , 2]
 
+#saveRDS(thetao.mean, "thetao.rds" )
+
+```
+
+Cargar temperaturas promedio 2021-2024
+
+```{r}
+thetao <- readRDS("./data/thetao.rds")
+dim(thetao@data) <- c(dim(thetao@data), 1)
+plot(thetao)
 ```
 
 ```{r}
@@ -92,10 +108,10 @@ plot(thetao, period = 2)
 ```{r}
 
 # Definir el área de interés (pueden ser todos negativos si lo necesitas)
-lonMin <- -149
-lonMax <- -70
+lonMin <- -150
+lonMax <- -71
 latMin <- -29
-latMax <- 44
+latMax <- 33
 # Calcular número de filas y columnas: 1 píxel por grado
 nrows <- latMax - latMin   # diferencia en grados de latitud
 ncols <- lonMax - lonMin   # diferencia en grados de longitud
@@ -111,6 +127,24 @@ r
 # Graficar
 plot(r, main = "Raster vacío definido por coordenadas")
 
+```
+
+```{r}
+library(terra)
+
+## copia de thetao para guardar datos reescalados
+thetao1 <- thetao
+
+## resample
+xt2 <- ext(c(range(thetao1@lon), range(thetao1@lat)))
+
+ a <- thetao1@data[ , , 1]
+ a <- rast(a, extent = xt2)
+ b <- resample(x = a, y = r)
+ thetao1@data[, , i] <- as.matrix(b, wide = TRUE)
+  
+
+plot(thetao1)
 ```
 
 Con esto pasamos de 214,760 registros en la base original a sólo 18,009 después de simplificar.
