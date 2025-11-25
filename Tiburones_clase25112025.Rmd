@@ -140,8 +140,9 @@ xt2 <- ext(c(range(thetao1@lon), range(thetao1@lat)))
 
  a <- thetao1@data[ , , 1]
  a <- rast(a, extent = xt2)
- b <- resample(x = a, y = r)
- thetao1@data[, , i] <- as.matrix(b, wide = TRUE)
+ a2 <- raster(a) ## <- esto resuelve el error
+ b <- resample(x = a2, y = r)
+ thetao1@data[, , i] <- as.matrix(b, wide = TRUE) ## Aqui el "i" genera problemas!
   
 
 plot(thetao1)
