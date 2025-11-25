@@ -15,6 +15,7 @@ Para este tutorial requerimos tres paquetes:
 library(sp)         # Clases y métodos para datos espaciales
 library(lubridate)  # Manipulación fácil de fechas 
 library(PBSmapping) # Mapeo de datos pesqueros y herramientas de análisis espaciales
+library(raster)
 ```
 
 ## Importar datos
@@ -89,10 +90,26 @@ plot(thetao, period = 2)
 ```
 
 ```{r}
-thetao_1 <- pic |> 
-  mutate(latgg = round(lat, 0), longg = round(lon, 0)) |> 
-  group_by(year, latgg, longg) |> 
-  summarise(n = n())
+
+# Definir el área de interés (pueden ser todos negativos si lo necesitas)
+lonMin <- -149
+lonMax <- -70
+latMin <- -29
+latMax <- 44
+# Calcular número de filas y columnas: 1 píxel por grado
+nrows <- latMax - latMin   # diferencia en grados de latitud
+ncols <- lonMax - lonMin   # diferencia en grados de longitud
+# Crear el raster vacío
+r <- raster(nrows = nrows, ncols = ncols,
+            xmn = lonMin, xmx = lonMax,
+            ymn = latMin, ymx = latMax,
+            crs = CRS("+proj=longlat +datum=WGS84"))
+# Asignar valores NA
+values(r) <- NA
+# Ver resumen
+r
+# Graficar
+plot(r, main = "Raster vacío definido por coordenadas")
 
 ```
 
