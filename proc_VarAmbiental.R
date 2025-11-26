@@ -64,7 +64,7 @@
  rm(va.c)
  # saveRDS(va.m, paste(ruta, vn, ".rds", sep ="")) # opcional
 
-# 3. Crear un raster vacío con la extensión (tomada de base) y resolución deseada
+# 3. Crear un raster vacío con la extensión (tomada de base CIAT) y resolución deseada
  lonMin <- -150
  lonMax <- -71
  latMin <- -29
@@ -77,8 +77,8 @@
 # 4. Reescalar la variable ambiental al raster vacío usando el paquete 'terra'
  # copia de la estructura para guardar datos reescalados
  va.r <- va.m
- va.r@lon <- seq(lonMin, lonMax, 1)
- va.r@lat <- seq(latMin, latMax, 1)
+ va.r@lon <- seq(lonMin, lonMax, 1) + 0.5
+ va.r@lat <- seq(latMin, latMax, 1) + 0.5
  va.r@period$tmStart <- va.r@period$tmStart[1]
  va.r@period$tmEnd <- va.r@period$tmEnd[length(va.r@period$tmEnd)]
  
@@ -110,6 +110,6 @@
  plot(va.rc, restore.par = FALSE) 
  
  # guardar
- saveRDS(va.r, paste(ruta, vn, "_res_1x1.rds", sep ="")) # opcional
+ saveRDS(va.rc, paste(ruta, vn, "_res_1x1.rds", sep ="")) # opcional
  satin2asc(va.rc, slice = 1, file = paste(ruta, vn, ".asc", sep = "")) 
  
