@@ -65,10 +65,10 @@
  # saveRDS(va.m, paste(ruta, vn, ".rds", sep ="")) # opcional
 
 # 3. Crear un raster vacío con la extensión (tomada de base) y resolución deseada
- lonMin <- -149.5
- lonMax <- -71.5
- latMin <- -28.5
- latMax <- 32.5
+ lonMin <- -150
+ lonMax <- -71
+ latMin <- -29
+ latMax <- 33
  
  r <- rast(extent = c(lonMin, lonMax, latMin, latMax), res = 1)
  # Asignar valores NA
@@ -79,6 +79,8 @@
  va.r <- va.m
  va.r@lon <- seq(lonMin, lonMax, 1)
  va.r@lat <- seq(latMin, latMax, 1)
+ va.r@period$tmStart <- va.r@period$tmStart[1]
+ va.r@period$tmEnd <- va.r@period$tmEnd[length(va.r@period$tmEnd)]
  
  # extent
  xt2 <- ext(c(range(va.r@lon), range(va.r@lat)))
@@ -89,10 +91,25 @@
  va.r@data <- as.matrix(b, wide = TRUE)
 
  dim(va.r@data) <- c(dim(va.r@data), 1)
-
+ # ajuste de vectores lon y lat
+ va.r@lon <- va.r@lon[1:79]
+ va.r@lat <- va.r@lat[1:62]
+ 
  plot(va.m) # original
  plot(va.r) # reescalado
-
+ 
+ # 5. Recortar al OPO
+ # Polígono para recorte
+ polig <- readRDS("./data/poligono.rds")
+ 
+ # recorte
+ plot(va.r, restore.par = FALSE) 
+ va.rc <- satin::crop(va.r, polygon = polig)
+ dim(va.rc@data) <- dim(va.rc@data)[1:3]
+ 
+ plot(va.rc, restore.par = FALSE) 
+ 
+ # guardar
  saveRDS(va.r, paste(ruta, vn, "_res_1x1.rds", sep ="")) # opcional
- satin2asc(va.r, slice = 1, file = paste(ruta, vn, ".asc", sep = "")) 
+ satin2asc(va.rc, slice = 1, file = paste(ruta, vn, ".asc", sep = "")) 
  
