@@ -1,0 +1,2153 @@
+Thu Nov 27 10:55:30 COT 2025
+MaxEnt version 3.4.4
+Checking header of C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Clorofila.asc
+Checking header of C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Profmezcla.asc
+Checking header of C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Salinidad.asc
+Checking header of C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Temperatura.asc
+Reading samples from FAL2021-2024.csv
+Read samples: max memory 1849688064, total allocated 149422080, free 113285096, used 36136984, increment 36136984
+Converting file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Clorofila.asc size 70138, max memory = 1849688064
+Reading file Clorofila.asc
+FLOAT, 3801 pixels with data
+readGrid: max memory 1849688064, total allocated 150470656, free 127362664, used 23107992, increment -13028992
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\maxent.cache\Clorofila.mxe
+Converting file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Profmezcla.asc size 69091, max memory = 1849688064
+Reading file Profmezcla.asc
+FLOAT, 3801 pixels with data
+readGrid: max memory 1849688064, total allocated 150470656, free 125067080, used 25403576, increment 2295584
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\maxent.cache\Profmezcla.mxe
+Converting file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Salinidad.asc size 69091, max memory = 1849688064
+Reading file Salinidad.asc
+FLOAT, 3801 pixels with data
+readGrid: max memory 1849688064, total allocated 150470656, free 122861800, used 27608856, increment 2205280
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\maxent.cache\Salinidad.mxe
+Converting file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Temperatura.asc size 69006, max memory = 1849688064
+Reading file Temperatura.asc
+FLOAT, 3801 pixels with data
+readGrid: max memory 1849688064, total allocated 150470656, free 120681096, used 29789560, increment 2180704
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\maxent.cache\Temperatura.mxe
+Extractor: max memory 1849688064, total allocated 150470656, free 120681096, used 29789560, increment 0
+Extracting random background and sample data
+Warning: Sample at -109.5, 25.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -109.5, 25.5 which has no environmental data
+Warning: Sample at -112.5, 24.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -112.5, 24.5 which has no environmental data
+Warning: Sample at -109.5, 24.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -109.5, 24.5 which has no environmental data
+Warning: Sample at -112.5, 23.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -112.5, 23.5 which has no environmental data
+Warning: Sample at -112.5, 23.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -112.5, 23.5 which has no environmental data
+Warning: Sample at -108.5, 23.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -108.5, 23.5 which has no environmental data
+Warning: Sample at -108.5, 23.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -108.5, 23.5 which has no environmental data
+Warning: Sample at -108.5, 23.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -108.5, 23.5 which has no environmental data
+Warning: Sample at -108.5, 23.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -108.5, 23.5 which has no environmental data
+Warning: Sample at -107.5, 23.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -107.5, 23.5 which has no environmental data
+Warning: Sample at -107.5, 23.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -107.5, 23.5 which has no environmental data
+Warning: Sample at -107.5, 23.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -107.5, 23.5 which has no environmental data
+Warning: Sample at -110.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -110.5, 22.5 which has no environmental data
+Warning: Sample at -107.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -107.5, 22.5 which has no environmental data
+Warning: Sample at -107.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -107.5, 22.5 which has no environmental data
+Warning: Sample at -107.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -107.5, 22.5 which has no environmental data
+Warning: Sample at -107.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -107.5, 22.5 which has no environmental data
+Warning: Sample at -107.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -107.5, 22.5 which has no environmental data
+Warning: Sample at -107.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -107.5, 22.5 which has no environmental data
+Warning: Sample at -106.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 22.5 which has no environmental data
+Warning: Sample at -106.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 22.5 which has no environmental data
+Warning: Sample at -106.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 22.5 which has no environmental data
+Warning: Sample at -106.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 22.5 which has no environmental data
+Warning: Sample at -106.5, 22.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 22.5 which has no environmental data
+Warning: Sample at -106.5, 21.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 21.5 which has no environmental data
+Warning: Sample at -106.5, 21.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 21.5 which has no environmental data
+Warning: Sample at -106.5, 21.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 21.5 which has no environmental data
+Warning: Sample at -106.5, 21.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 21.5 which has no environmental data
+Warning: Sample at -106.5, 21.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -106.5, 21.5 which has no environmental data
+Warning: Sample at -105.5, 21.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -105.5, 21.5 which has no environmental data
+Warning: Sample at -105.5, 21.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -105.5, 21.5 which has no environmental data
+Warning: Sample at -105.5, 21.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -105.5, 21.5 which has no environmental data
+Warning: Sample at -106.5, 19.5 in FAL2021-2024.csv is missing some environmental data (e.g. Profmezcla)
+Warning: Skipping sample at -106.5, 19.5
+Warning: Sample at -105.5, 19.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -105.5, 19.5 which has no environmental data
+Warning: Sample at -105.5, 19.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -105.5, 19.5 which has no environmental data
+Warning: Sample at -104.5, 18.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -104.5, 18.5 which has no environmental data
+Warning: Sample at -101.5, 16.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -101.5, 16.5 which has no environmental data
+Warning: Sample at -100.5, 16.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -100.5, 16.5 which has no environmental data
+Warning: Sample at -99.5, 16.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -99.5, 16.5 which has no environmental data
+Warning: Sample at -99.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -99.5, 15.5 which has no environmental data
+Warning: Sample at -99.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -99.5, 15.5 which has no environmental data
+Warning: Sample at -98.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -98.5, 15.5 which has no environmental data
+Warning: Sample at -98.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -98.5, 15.5 which has no environmental data
+Warning: Sample at -97.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -97.5, 15.5 which has no environmental data
+Warning: Sample at -97.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -97.5, 15.5 which has no environmental data
+Warning: Sample at -97.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -97.5, 15.5 which has no environmental data
+Warning: Sample at -96.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -96.5, 15.5 which has no environmental data
+Warning: Sample at -95.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -95.5, 15.5 which has no environmental data
+Warning: Sample at -94.5, 15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -94.5, 15.5 which has no environmental data
+Warning: Sample at -93.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -93.5, 14.5 which has no environmental data
+Warning: Sample at -93.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -93.5, 14.5 which has no environmental data
+Warning: Sample at -93.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -93.5, 14.5 which has no environmental data
+Warning: Sample at -93.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -93.5, 14.5 which has no environmental data
+Warning: Sample at -93.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -93.5, 14.5 which has no environmental data
+Warning: Sample at -93.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -93.5, 14.5 which has no environmental data
+Warning: Sample at -93.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -93.5, 14.5 which has no environmental data
+Warning: Sample at -93.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -93.5, 14.5 which has no environmental data
+Warning: Sample at -92.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -92.5, 14.5 which has no environmental data
+Warning: Sample at -92.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -92.5, 14.5 which has no environmental data
+Warning: Sample at -92.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -92.5, 14.5 which has no environmental data
+Warning: Sample at -92.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -92.5, 14.5 which has no environmental data
+Warning: Sample at -92.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -92.5, 14.5 which has no environmental data
+Warning: Sample at -92.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -92.5, 14.5 which has no environmental data
+Warning: Sample at -92.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -92.5, 14.5 which has no environmental data
+Warning: Sample at -92.5, 14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -92.5, 14.5 which has no environmental data
+Warning: Sample at -88.5, 12.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -88.5, 12.5 which has no environmental data
+Warning: Sample at -88.5, 12.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -88.5, 12.5 which has no environmental data
+Warning: Sample at -88.5, 12.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -88.5, 12.5 which has no environmental data
+Warning: Sample at -87.5, 11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -87.5, 11.5 which has no environmental data
+Warning: Sample at -87.5, 11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -87.5, 11.5 which has no environmental data
+Warning: Sample at -87.5, 11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -87.5, 11.5 which has no environmental data
+Warning: Sample at -87.5, 11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -87.5, 11.5 which has no environmental data
+Warning: Sample at -87.5, 11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -87.5, 11.5 which has no environmental data
+Warning: Sample at -87.5, 11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -87.5, 11.5 which has no environmental data
+Warning: Sample at -87.5, 11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -87.5, 11.5 which has no environmental data
+Warning: Sample at -87.5, 11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -87.5, 11.5 which has no environmental data
+Warning: Sample at -86.5, 11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -86.5, 11.5 which has no environmental data
+Warning: Sample at -86.5, 10.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -86.5, 10.5 which has no environmental data
+Warning: Sample at -86.5, 10.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -86.5, 10.5 which has no environmental data
+Warning: Sample at -84.5, 8.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -84.5, 8.5 which has no environmental data
+Warning: Sample at -84.5, 7.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -84.5, 7.5 which has no environmental data
+Warning: Sample at -78.5, 6.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -78.5, 6.5 which has no environmental data
+Warning: Sample at -78.5, 6.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -78.5, 6.5 which has no environmental data
+Warning: Sample at -77.5, 5.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -77.5, 5.5 which has no environmental data
+Warning: Sample at -77.5, 4.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -77.5, 4.5 which has no environmental data
+Warning: Sample at -81.5, -3.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -81.5, -3.5 which has no environmental data
+Warning: Sample at -81.5, -3.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -81.5, -3.5 which has no environmental data
+Warning: Sample at -81.5, -5.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -81.5, -5.5 which has no environmental data
+Warning: Sample at -78.5, -10.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -78.5, -10.5 which has no environmental data
+Warning: Sample at -78.5, -10.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -78.5, -10.5 which has no environmental data
+Warning: Sample at -78.5, -11.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -78.5, -11.5 which has no environmental data
+Warning: Sample at -77.5, -12.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -77.5, -12.5 which has no environmental data
+Warning: Sample at -76.5, -14.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -76.5, -14.5 which has no environmental data
+Warning: Sample at -76.5, -15.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -76.5, -15.5 which has no environmental data
+Warning: Sample at -75.5, -16.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -75.5, -16.5 which has no environmental data
+Warning: Sample at -75.5, -16.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -75.5, -16.5 which has no environmental data
+Warning: Sample at -73.5, -17.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -73.5, -17.5 which has no environmental data
+Warning: Sample at -72.5, -17.5 in FAL2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -72.5, -17.5 which has no environmental data
+Time since start: 12.199
+3799 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados "samplesfile=C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Especies para modelar\FAL2021-2024.csv" "environmentallayers=C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales" betamultiplier=2.0 maximumbackground=20000 replicates=10
+Species: FALn_0 FALn_1 FALn_2 FALn_3 FALn_4 FALn_5 FALn_6 FALn_7 FALn_8 FALn_9
+Layers: Clorofila Profmezcla Salinidad Temperatura
+Layertypes: Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados
+samplesfile: C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Especies para modelar\FAL2021-2024.csv
+environmentallayers: C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales
+betamultiplier: 2.0
+maximumbackground: 20000
+replicates: 10
+
+getSamples: max memory 1849688064, total allocated 150470656, free 109896056, used 40574600, increment 10785040
+Making features
+makeFeatures: max memory 1849688064, total allocated 150470656, free 109429544, used 41041112, increment 466512
+FALn_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 150470656, free 103791032, used 46679624, increment 5638512
+linearPredictor: max memory 1849688064, total allocated 150470656, free 103791032, used 46679624, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 150470656, free 103791032, used 46679624, increment 0
+Sequential: max memory 1849688064, total allocated 150470656, free 103791032, used 46679624, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 14.265
+260: time = 1,826000 loss = 7,790338 testLoss 7,749231
+Resulting gain: 0.4521554732192561
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_0.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_0.png
+Time since start: 15.545
+FALn_0 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 224395264, free 145250976, used 79144288, increment 32464664
+FALn_0 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 224395264, free 142591656, used 81803608, increment 2659320
+linearPredictor: max memory 1849688064, total allocated 224395264, free 142591656, used 81803608, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 224395264, free 142591656, used 81803608, increment 0
+Sequential: max memory 1849688064, total allocated 224395264, free 142591656, used 81803608, increment 0
+Initial loss: 8.242493153187626
+160: time = 0,453000 loss = 7,824633
+Resulting gain: 0.4178603623121342
+FALn_0 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 215482368, free 130416184, used 85066184, increment 3262576
+FALn_0 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 215482368, free 127910768, used 87571600, increment 2505416
+linearPredictor: max memory 1849688064, total allocated 215482368, free 127910768, used 87571600, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 215482368, free 127910768, used 87571600, increment 0
+Sequential: max memory 1849688064, total allocated 215482368, free 127910768, used 87571600, increment 0
+Initial loss: 8.242493153187626
+Time since start: 16.917
+180: time = 0,441000 loss = 8,037844
+Resulting gain: 0.20464867936012965
+FALn_0 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 210763776, free 97471280, used 113292496, increment 25720896
+FALn_0 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 210763776, free 95057272, used 115706504, increment 2414008
+linearPredictor: max memory 1849688064, total allocated 210763776, free 95057272, used 115706504, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 210763776, free 95057272, used 115706504, increment 0
+Sequential: max memory 1849688064, total allocated 210763776, free 95057272, used 115706504, increment 0
+Initial loss: 8.242493153187626
+140: time = 0,375000 loss = 8,092785
+Resulting gain: 0.1497079241939776
+FALn_0 response curves
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 215482368, free 106750712, used 108731656, increment -6974848
+FALn_0 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 215482368, free 104417656, used 111064712, increment 2333056
+linearPredictor: max memory 1849688064, total allocated 215482368, free 104417656, used 111064712, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 215482368, free 104417656, used 111064712, increment 0
+Sequential: max memory 1849688064, total allocated 215482368, free 104417656, used 111064712, increment 0
+Initial loss: 8.242493153187626
+Time since start: 17.992
+180: time = 0,510000 loss = 8,113408
+Resulting gain: 0.12908505318534047
+FALn_0 response curves
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 206569472, free 158818616, used 47750856, increment -63313856
+FALn_0 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 206569472, free 154465216, used 52104256, increment 4353400
+linearPredictor: max memory 1849688064, total allocated 206569472, free 154465216, used 52104256, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 206569472, free 154465216, used 52104256, increment 0
+Sequential: max memory 1849688064, total allocated 206569472, free 154465216, used 52104256, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 20.5
+400: time = 2,193000 loss = 7,923954 testLoss 7,883340
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 170393600, free 84381696, used 86011904, increment 33907648
+FALn_0 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 170393600, free 81280120, used 89113480, increment 3101576
+linearPredictor: max memory 1849688064, total allocated 170393600, free 81280120, used 89113480, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 170393600, free 81280120, used 89113480, increment 0
+Sequential: max memory 1849688064, total allocated 170393600, free 81280120, used 89113480, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 21.696
+220: time = 1,144000 loss = 7,791530 testLoss 7,752358
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 151519232, free 77324888, used 74194344, increment -14919136
+FALn_0 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 151519232, free 74815056, used 76704176, increment 2509832
+linearPredictor: max memory 1849688064, total allocated 151519232, free 74815056, used 76704176, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 151519232, free 74815056, used 76704176, increment 0
+Sequential: max memory 1849688064, total allocated 151519232, free 74815056, used 76704176, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 22.883
+220: time = 1,151000 loss = 7,790327 testLoss 7,748805
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 146276352, free 76008024, used 70268328, increment -6435848
+FALn_0 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 146276352, free 73563168, used 72713184, increment 2444856
+linearPredictor: max memory 1849688064, total allocated 146276352, free 73563168, used 72713184, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 146276352, free 73563168, used 72713184, increment 0
+Sequential: max memory 1849688064, total allocated 146276352, free 73563168, used 72713184, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 23.98
+200: time = 1,060000 loss = 7,822985 testLoss 7,777243
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 133169152, free 88570440, used 44598712, increment -28114472
+FALn_0 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 133169152, free 88545272, used 44623880, increment 25168
+linearPredictor: max memory 1849688064, total allocated 133169152, free 88514864, used 44654288, increment 30408
+FeaturedSpace: max memory 1849688064, total allocated 133169152, free 88514864, used 44654288, increment 0
+Sequential: max memory 1849688064, total allocated 133169152, free 88514864, used 44654288, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+160: time = 0,372000 loss = 7,824633 testLoss 7,786385
+Res.gain: 0.4178603623121342
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 131072000, free 83970112, used 47101888, increment 2447600
+FALn_0 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 131072000, free 83033976, used 48038024, increment 936136
+linearPredictor: max memory 1849688064, total allocated 131072000, free 83033976, used 48038024, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 131072000, free 83033976, used 48038024, increment 0
+Sequential: max memory 1849688064, total allocated 131072000, free 83033976, used 48038024, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+180: time = 0,436000 loss = 8,037844 testLoss 8,000559
+Res.gain: 0.20464867936012965
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 126877696, free 51875672, used 75002024, increment 26964000
+FALn_0 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 126877696, free 90022592, used 36855104, increment -38146920
+linearPredictor: max memory 1849688064, total allocated 126877696, free 90022592, used 36855104, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 126877696, free 90022592, used 36855104, increment 0
+Sequential: max memory 1849688064, total allocated 126877696, free 90022592, used 36855104, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 25.131
+140: time = 0,295000 loss = 8,092785 testLoss 8,080743
+Res.gain: 0.1497079241939776
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 124780544, free 51443592, used 73336952, increment 36481848
+FALn_0 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 124256256, free 86845800, used 37410456, increment -35926496
+linearPredictor: max memory 1849688064, total allocated 124256256, free 86845800, used 37410456, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 124256256, free 86845800, used 37410456, increment 0
+Sequential: max memory 1849688064, total allocated 124256256, free 86845800, used 37410456, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+180: time = 0,390000 loss = 8,113408 testLoss 8,102976
+Res.gain: 0.12908505318534047
+getSamples: max memory 1849688064, total allocated 122159104, free 73535736, used 48623368, increment 11212912
+Making features
+makeFeatures: max memory 1849688064, total allocated 122159104, free 73274880, used 48884224, increment 260856
+FALn_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 122159104, free 70102696, used 52056408, increment 3172184
+linearPredictor: max memory 1849688064, total allocated 122159104, free 70072288, used 52086816, increment 30408
+FeaturedSpace: max memory 1849688064, total allocated 122159104, free 70072288, used 52086816, increment 0
+Sequential: max memory 1849688064, total allocated 122159104, free 70072288, used 52086816, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 27.352
+220: time = 1,661000 loss = 7,784957 testLoss 7,801052
+Resulting gain: 0.457536616335668
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_1.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_1.png
+FALn_1 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 195559424, free 151356448, used 44202976, increment -7883840
+FALn_1 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 195559424, free 151341760, used 44217664, increment 14688
+linearPredictor: max memory 1849688064, total allocated 195559424, free 151341760, used 44217664, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 195559424, free 151341760, used 44217664, increment 0
+Sequential: max memory 1849688064, total allocated 195559424, free 151341760, used 44217664, increment 0
+Initial loss: 8.242493153187626
+Time since start: 28.653
+140: time = 0,406000 loss = 7,821632
+Resulting gain: 0.42086111901466783
+FALn_1 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 191889408, free 129652760, used 62236648, increment 18018984
+FALn_1 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 191889408, free 129641648, used 62247760, increment 11112
+linearPredictor: max memory 1849688064, total allocated 191889408, free 129641648, used 62247760, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 191889408, free 129641648, used 62247760, increment 0
+Sequential: max memory 1849688064, total allocated 191889408, free 129641648, used 62247760, increment 0
+Initial loss: 8.242493153187626
+200: time = 0,552000 loss = 8,037933
+Resulting gain: 0.2045598640908075
+FALn_1 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 188219392, free 57940616, used 130278776, increment 68031016
+FALn_1 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 188219392, free 57913672, used 130305720, increment 26944
+linearPredictor: max memory 1849688064, total allocated 188219392, free 57913672, used 130305720, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 188219392, free 57913672, used 130305720, increment 0
+Sequential: max memory 1849688064, total allocated 188219392, free 57913672, used 130305720, increment 0
+Initial loss: 8.242493153187626
+Time since start: 29.981
+240: time = 0,618000 loss = 8,093827
+Resulting gain: 0.14866626173252584
+FALn_1 response curves
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 180879360, free 51193560, used 129685800, increment -619920
+FALn_1 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 180879360, free 51193560, used 129685800, increment 0
+linearPredictor: max memory 1849688064, total allocated 180879360, free 51193560, used 129685800, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 180879360, free 51193560, used 129685800, increment 0
+Sequential: max memory 1849688064, total allocated 180879360, free 51193560, used 129685800, increment 0
+Initial loss: 8.242493153187626
+180: time = 0,478000 loss = 8,113121
+Resulting gain: 0.12937260279578666
+FALn_1 response curves
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 174587904, free 60779072, used 113808832, increment -15876968
+FALn_1 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 174587904, free 59023456, used 115564448, increment 1755616
+linearPredictor: max memory 1849688064, total allocated 174587904, free 59023456, used 115564448, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 174587904, free 59023456, used 115564448, increment 0
+Sequential: max memory 1849688064, total allocated 174587904, free 59023456, used 115564448, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 33.179
+440: time = 2,412000 loss = 7,923124 testLoss 7,893250
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 172490752, free 54758296, used 117732456, increment 2168008
+FALn_1 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 172490752, free 51358536, used 121132216, increment 3399760
+linearPredictor: max memory 1849688064, total allocated 172490752, free 51358536, used 121132216, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 172490752, free 51358536, used 121132216, increment 0
+Sequential: max memory 1849688064, total allocated 172490752, free 51358536, used 121132216, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 34.251
+200: time = 1,034000 loss = 7,786817 testLoss 7,798562
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 197132288, free 53941048, used 143191240, increment 22059024
+FALn_1 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 197132288, free 51747696, used 145384592, increment 2193352
+linearPredictor: max memory 1849688064, total allocated 197132288, free 51747696, used 145384592, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 197132288, free 51747696, used 145384592, increment 0
+Sequential: max memory 1849688064, total allocated 197132288, free 51747696, used 145384592, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 35.344
+200: time = 1,048000 loss = 7,785079 testLoss 7,799640
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 179830784, free 47115488, used 132715296, increment -12669296
+FALn_1 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 179830784, free 45250304, used 134580480, increment 1865184
+linearPredictor: max memory 1849688064, total allocated 179830784, free 45250304, used 134580480, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 179830784, free 45250304, used 134580480, increment 0
+Sequential: max memory 1849688064, total allocated 179830784, free 45250304, used 134580480, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+160: time = 0,836000 loss = 7,818530 testLoss 7,820018
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 164626432, free 61764864, used 102861568, increment -31718912
+FALn_1 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 164626432, free 60216632, used 104409800, increment 1548232
+linearPredictor: max memory 1849688064, total allocated 164626432, free 60216632, used 104409800, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 164626432, free 60216632, used 104409800, increment 0
+Sequential: max memory 1849688064, total allocated 164626432, free 60216632, used 104409800, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 36.616
+140: time = 0,371000 loss = 7,821632 testLoss 7,811995
+Res.gain: 0.42086111901466783
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 159907840, free 88475352, used 71432488, increment -32977312
+FALn_1 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 159907840, free 87016104, used 72891736, increment 1459248
+linearPredictor: max memory 1849688064, total allocated 159907840, free 87016104, used 72891736, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 159907840, free 87016104, used 72891736, increment 0
+Sequential: max memory 1849688064, total allocated 159907840, free 87016104, used 72891736, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+200: time = 0,528000 loss = 8,037933 testLoss 8,000842
+Res.gain: 0.2045598640908075
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 155713536, free 56226984, used 99486552, increment 26594816
+FALn_1 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 155713536, free 56216456, used 99497080, increment 10528
+linearPredictor: max memory 1849688064, total allocated 155713536, free 56216456, used 99497080, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 155713536, free 56216456, used 99497080, increment 0
+Sequential: max memory 1849688064, total allocated 155713536, free 56216456, used 99497080, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 37.748
+240: time = 0,580000 loss = 8,093827 testLoss 8,072179
+Res.gain: 0.14866626173252584
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 165675008, free 87155480, used 78519528, increment -20977552
+FALn_1 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 165675008, free 87141592, used 78533416, increment 13888
+linearPredictor: max memory 1849688064, total allocated 165675008, free 87141592, used 78533416, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 165675008, free 87141592, used 78533416, increment 0
+Sequential: max memory 1849688064, total allocated 165675008, free 87141592, used 78533416, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+180: time = 0,392000 loss = 8,113121 testLoss 8,106411
+Res.gain: 0.12937260279578666
+getSamples: max memory 1849688064, total allocated 159907840, free 79144776, used 80763064, increment 2229648
+Making features
+makeFeatures: max memory 1849688064, total allocated 159907840, free 77629640, used 82278200, increment 1515136
+FALn_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 159907840, free 74724336, used 85183504, increment 2905304
+linearPredictor: max memory 1849688064, total allocated 159907840, free 74724336, used 85183504, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 159907840, free 74724336, used 85183504, increment 0
+Sequential: max memory 1849688064, total allocated 159907840, free 74724336, used 85183504, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 39.879
+260: time = 1,587000 loss = 7,785087 testLoss 7,791498
+Resulting gain: 0.45740624298947985
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_2.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_2.png
+FALn_2 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 135266304, free 73921120, used 61345184, increment -23838320
+FALn_2 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 135266304, free 72950920, used 62315384, increment 970200
+linearPredictor: max memory 1849688064, total allocated 135266304, free 72950920, used 62315384, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 135266304, free 72950920, used 62315384, increment 0
+Sequential: max memory 1849688064, total allocated 135266304, free 72950920, used 62315384, increment 0
+Initial loss: 8.242493153187626
+Time since start: 41.142
+240: time = 0,654000 loss = 7,819213
+Resulting gain: 0.42328014023207494
+FALn_2 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 131596288, free 44381352, used 87214936, increment 24899552
+FALn_2 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 131596288, free 43527152, used 88069136, increment 854200
+linearPredictor: max memory 1849688064, total allocated 131596288, free 43527152, used 88069136, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 131596288, free 43527152, used 88069136, increment 0
+Sequential: max memory 1849688064, total allocated 131596288, free 43527152, used 88069136, increment 0
+Initial loss: 8.242493153187626
+280: time = 0,750000 loss = 8,036687
+Resulting gain: 0.2058058704466461
+FALn_2 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 133693440, free 55926960, used 77766480, increment -10302656
+FALn_2 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 133693440, free 55012112, used 78681328, increment 914848
+linearPredictor: max memory 1849688064, total allocated 133693440, free 55012112, used 78681328, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 133693440, free 55012112, used 78681328, increment 0
+Sequential: max memory 1849688064, total allocated 133693440, free 55012112, used 78681328, increment 0
+Initial loss: 8.242493153187626
+Time since start: 42.404
+140: time = 0,338000 loss = 8,091619
+Resulting gain: 0.15087436936489595
+FALn_2 response curves
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 130547712, free 64613640, used 65934072, increment -12747256
+FALn_2 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 130547712, free 63754928, used 66792784, increment 858712
+linearPredictor: max memory 1849688064, total allocated 130547712, free 63754928, used 66792784, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 130547712, free 63754928, used 66792784, increment 0
+Sequential: max memory 1849688064, total allocated 130547712, free 63754928, used 66792784, increment 0
+Initial loss: 8.242493153187626
+220: time = 0,520000 loss = 8,116485
+Resulting gain: 0.12600823684039497
+FALn_2 response curves
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 125304832, free 25948056, used 99356776, increment 32563992
+FALn_2 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 125304832, free 23762904, used 101541928, increment 2185152
+linearPredictor: max memory 1849688064, total allocated 125829120, free 60317136, used 65511984, increment -36029944
+FeaturedSpace: max memory 1849688064, total allocated 125829120, free 59577744, used 66251376, increment 739392
+Sequential: max memory 1849688064, total allocated 125829120, free 59577744, used 66251376, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 45.391
+360: time = 2,087000 loss = 7,923336 testLoss 7,888601
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 166723584, free 30214416, used 136509168, increment 70257792
+FALn_2 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 166723584, free 28633280, used 138090304, increment 1581136
+linearPredictor: max memory 1849688064, total allocated 166723584, free 28633280, used 138090304, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 166723584, free 28633280, used 138090304, increment 0
+Sequential: max memory 1849688064, total allocated 166723584, free 28633280, used 138090304, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 46.678
+240: time = 1,250000 loss = 7,786694 testLoss 7,793198
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 147324928, free 49793016, used 97531912, increment -40558392
+FALn_2 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 147324928, free 47342208, used 99982720, increment 2450808
+linearPredictor: max memory 1849688064, total allocated 147324928, free 47342208, used 99982720, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 147324928, free 47342208, used 99982720, increment 0
+Sequential: max memory 1849688064, total allocated 147324928, free 47342208, used 99982720, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 47.948
+260: time = 1,249000 loss = 7,785086 testLoss 7,791561
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 142082048, free 19168416, used 122913632, increment 22930912
+FALn_2 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 153616384, free 81668432, used 71947952, increment -50965680
+linearPredictor: max memory 1849688064, total allocated 153616384, free 81668432, used 71947952, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 153616384, free 81668432, used 71947952, increment 0
+Sequential: max memory 1849688064, total allocated 153616384, free 81668432, used 71947952, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 49.027
+220: time = 1,059000 loss = 7,817162 testLoss 7,825249
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 152567808, free 43463240, used 109104568, increment 37156616
+FALn_2 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 152567808, free 42134288, used 110433520, increment 1328952
+linearPredictor: max memory 1849688064, total allocated 152567808, free 42134288, used 110433520, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 152567808, free 42134288, used 110433520, increment 0
+Sequential: max memory 1849688064, total allocated 152567808, free 42134288, used 110433520, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+240: time = 0,462000 loss = 7,819213 testLoss 7,830959
+Res.gain: 0.42328014023207494
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 147849216, free 23435800, used 124413416, increment 13979896
+FALn_2 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 147849216, free 23418672, used 124430544, increment 17128
+linearPredictor: max memory 1849688064, total allocated 147849216, free 23418672, used 124430544, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 147849216, free 23418672, used 124430544, increment 0
+Sequential: max memory 1849688064, total allocated 147849216, free 23418672, used 124430544, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 50.06
+280: time = 0,555000 loss = 8,036687 testLoss 8,008341
+Res.gain: 0.2058058704466461
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 139460608, free 63601344, used 75859264, increment -48571280
+FALn_2 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 139460608, free 62564080, used 76896528, increment 1037264
+linearPredictor: max memory 1849688064, total allocated 139460608, free 62564080, used 76896528, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 139460608, free 62564080, used 76896528, increment 0
+Sequential: max memory 1849688064, total allocated 139460608, free 62564080, used 76896528, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+140: time = 0,266000 loss = 8,091619 testLoss 8,091603
+Res.gain: 0.15087436936489595
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 136839168, free 49779016, used 87060152, increment 10163624
+FALn_2 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 136839168, free 48765312, used 88073856, increment 1013704
+linearPredictor: max memory 1849688064, total allocated 136839168, free 48765312, used 88073856, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 136839168, free 48765312, used 88073856, increment 0
+Sequential: max memory 1849688064, total allocated 136839168, free 48765312, used 88073856, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+220: time = 0,418000 loss = 8,116485 testLoss 8,075849
+Res.gain: 0.12600823684039497
+getSamples: max memory 1849688064, total allocated 132644864, free 49155512, used 83489352, increment -4584504
+Making features
+makeFeatures: max memory 1849688064, total allocated 132644864, free 48187720, used 84457144, increment 967792
+FALn_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 132644864, free 45309184, used 87335680, increment 2878536
+linearPredictor: max memory 1849688064, total allocated 132644864, free 45309184, used 87335680, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 132644864, free 45309184, used 87335680, increment 0
+Sequential: max memory 1849688064, total allocated 132644864, free 45309184, used 87335680, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 52.507
+260: time = 1,606000 loss = 7,790586 testLoss 7,749147
+Resulting gain: 0.45190737509485057
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_3.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_3.png
+FALn_3 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 168820736, free 85010280, used 83810456, increment -3525224
+FALn_3 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 168820736, free 84998064, used 83822672, increment 12216
+linearPredictor: max memory 1849688064, total allocated 168820736, free 84998064, used 83822672, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 168820736, free 84998064, used 83822672, increment 0
+Sequential: max memory 1849688064, total allocated 168820736, free 84998064, used 83822672, increment 0
+Initial loss: 8.242493153187626
+Time since start: 53.827
+180: time = 0,505000 loss = 7,823464
+Resulting gain: 0.4190295459419806
+FALn_3 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 164102144, free 80533648, used 83568496, increment -254176
+FALn_3 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 164102144, free 78984936, used 85117208, increment 1548712
+linearPredictor: max memory 1849688064, total allocated 164102144, free 78984936, used 85117208, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 164102144, free 78984936, used 85117208, increment 0
+Sequential: max memory 1849688064, total allocated 164102144, free 78984936, used 85117208, increment 0
+Initial loss: 8.242493153187626
+180: time = 0,559000 loss = 8,031256
+Resulting gain: 0.21123693967891022
+FALn_3 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 158334976, free 67385040, used 90949936, increment 5832728
+FALn_3 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 158334976, free 67364632, used 90970344, increment 20408
+linearPredictor: max memory 1849688064, total allocated 158334976, free 65930544, used 92404432, increment 1434088
+FeaturedSpace: max memory 1849688064, total allocated 158334976, free 65930544, used 92404432, increment 0
+Sequential: max memory 1849688064, total allocated 158334976, free 65930544, used 92404432, increment 0
+Initial loss: 8.242493153187626
+Time since start: 54.856
+120: time = 0,279000 loss = 8,091018
+Resulting gain: 0.15147471871449447
+FALn_3 response curves
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 157286400, free 36834984, used 120451416, increment 28046984
+FALn_3 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 157286400, free 35454440, used 121831960, increment 1380544
+linearPredictor: max memory 1849688064, total allocated 157286400, free 35454440, used 121831960, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 157286400, free 35454440, used 121831960, increment 0
+Sequential: max memory 1849688064, total allocated 157286400, free 35454440, used 121831960, increment 0
+Initial loss: 8.242493153187626
+260: time = 0,527000 loss = 8,113441
+Resulting gain: 0.12905175181247408
+FALn_3 response curves
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 149422080, free 61818472, used 87603608, increment -34228352
+FALn_3 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 149422080, free 59372320, used 90049760, increment 2446152
+linearPredictor: max memory 1849688064, total allocated 149422080, free 59372320, used 90049760, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 149422080, free 59372320, used 90049760, increment 0
+Sequential: max memory 1849688064, total allocated 149422080, free 59372320, used 90049760, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 57.44
+380: time = 1,785000 loss = 7,923680 testLoss 7,890518
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 149946368, free 36235904, used 113710464, increment 23660704
+FALn_3 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 149946368, free 33749568, used 116196800, increment 2486336
+linearPredictor: max memory 1849688064, total allocated 149946368, free 33749568, used 116196800, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 149946368, free 33749568, used 116196800, increment 0
+Sequential: max memory 1849688064, total allocated 149946368, free 33749568, used 116196800, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 58.726
+260: time = 1,261000 loss = 7,792075 testLoss 7,751266
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 144179200, free 23322544, used 120856656, increment 4659856
+FALn_3 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 144179200, free 19819456, used 124359744, increment 3503088
+linearPredictor: max memory 1849688064, total allocated 144179200, free 19819456, used 124359744, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 144179200, free 19819456, used 124359744, increment 0
+Sequential: max memory 1849688064, total allocated 144179200, free 19819456, used 124359744, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 59.8
+200: time = 1,053000 loss = 7,790588 testLoss 7,748676
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 113246208, free 47367208, used 65879000, increment -58480744
+FALn_3 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 113246208, free 45075712, used 68170496, increment 2291496
+linearPredictor: max memory 1849688064, total allocated 113246208, free 45075712, used 68170496, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 113246208, free 45075712, used 68170496, increment 0
+Sequential: max memory 1849688064, total allocated 113246208, free 45075712, used 68170496, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+160: time = 0,778000 loss = 7,821476 testLoss 7,791300
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 113246208, free 77741040, used 35505168, increment -32665328
+FALn_3 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 113246208, free 77720616, used 35525592, increment 20424
+linearPredictor: max memory 1849688064, total allocated 113246208, free 77720616, used 35525592, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 113246208, free 77720616, used 35525592, increment 0
+Sequential: max memory 1849688064, total allocated 113246208, free 77720616, used 35525592, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 60.97
+180: time = 0,358000 loss = 7,823464 testLoss 7,796632
+Res.gain: 0.4190295459419806
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 110100480, free 31749136, used 78351344, increment 42825752
+FALn_3 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 109576192, free 82907696, used 26668496, increment -51682848
+linearPredictor: max memory 1849688064, total allocated 109576192, free 81898752, used 27677440, increment 1008944
+FeaturedSpace: max memory 1849688064, total allocated 109576192, free 81898752, used 27677440, increment 0
+Sequential: max memory 1849688064, total allocated 109576192, free 81898752, used 27677440, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+180: time = 0,383000 loss = 8,031256 testLoss 8,059534
+Res.gain: 0.21123693967891022
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 105381888, free 76645200, used 28736688, increment 1059248
+FALn_3 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 105381888, free 76631336, used 28750552, increment 13864
+linearPredictor: max memory 1849688064, total allocated 105381888, free 76631336, used 28750552, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 105381888, free 76631336, used 28750552, increment 0
+Sequential: max memory 1849688064, total allocated 105381888, free 76631336, used 28750552, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+120: time = 0,222000 loss = 8,091018 testLoss 8,097492
+Res.gain: 0.15147471871449447
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 103284736, free 72204928, used 31079808, increment 2329256
+FALn_3 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 103284736, free 71275984, used 32008752, increment 928944
+linearPredictor: max memory 1849688064, total allocated 103284736, free 71275984, used 32008752, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 103284736, free 71275984, used 32008752, increment 0
+Sequential: max memory 1849688064, total allocated 103284736, free 71275984, used 32008752, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 62.096
+260: time = 0,488000 loss = 8,113441 testLoss 8,104681
+Res.gain: 0.12905175181247408
+getSamples: max memory 1849688064, total allocated 98566144, free 63961336, used 34604808, increment 2596056
+Making features
+makeFeatures: max memory 1849688064, total allocated 98566144, free 63694128, used 34872016, increment 267208
+FALn_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 98566144, free 60465144, used 38101000, increment 3228984
+linearPredictor: max memory 1849688064, total allocated 98566144, free 60465144, used 38101000, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 98566144, free 60465144, used 38101000, increment 0
+Sequential: max memory 1849688064, total allocated 98566144, free 60465144, used 38101000, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 63.58
+220: time = 1,357000 loss = 7,785137 testLoss 7,798162
+Resulting gain: 0.4573563077540346
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_4.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_4.png
+FALn_4 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 123207680, free 46978368, used 76229312, increment 38128312
+FALn_4 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 123207680, free 45668792, used 77538888, increment 1309576
+linearPredictor: max memory 1849688064, total allocated 123207680, free 45668792, used 77538888, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 123207680, free 45668792, used 77538888, increment 0
+Sequential: max memory 1849688064, total allocated 123207680, free 45668792, used 77538888, increment 0
+Initial loss: 8.242493153187626
+Time since start: 64.732
+120: time = 0,338000 loss = 7,822258
+Resulting gain: 0.4202354212845396
+FALn_4 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 119013376, free 62490928, used 56522448, increment -21016440
+FALn_4 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 119013376, free 62474488, used 56538888, increment 16440
+linearPredictor: max memory 1849688064, total allocated 119013376, free 62474488, used 56538888, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 119013376, free 62474488, used 56538888, increment 0
+Sequential: max memory 1849688064, total allocated 119013376, free 62474488, used 56538888, increment 0
+Initial loss: 8.242493153187626
+340: time = 0,831000 loss = 8,032979
+Resulting gain: 0.20951412782853218
+FALn_4 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 112197632, free 58962504, used 53235128, increment -3303760
+FALn_4 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 112197632, free 57893664, used 54303968, increment 1068840
+linearPredictor: max memory 1849688064, total allocated 112197632, free 57893664, used 54303968, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 112197632, free 57893664, used 54303968, increment 0
+Sequential: max memory 1849688064, total allocated 112197632, free 57893664, used 54303968, increment 0
+Initial loss: 8.242493153187626
+Time since start: 65.988
+140: time = 0,270000 loss = 8,089624
+Resulting gain: 0.152869100267516
+FALn_4 response curves
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 108003328, free 42341248, used 65662080, increment 11358112
+FALn_4 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 108003328, free 41310584, used 66692744, increment 1030664
+linearPredictor: max memory 1849688064, total allocated 108003328, free 41310584, used 66692744, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 108003328, free 41310584, used 66692744, increment 0
+Sequential: max memory 1849688064, total allocated 108003328, free 41310584, used 66692744, increment 0
+Initial loss: 8.242493153187626
+240: time = 0,499000 loss = 8,105372
+Resulting gain: 0.13712148592473739
+FALn_4 response curves
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 117964800, free 58836728, used 59128072, increment -7564672
+FALn_4 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 117964800, free 56425216, used 61539584, increment 2411512
+linearPredictor: max memory 1849688064, total allocated 117964800, free 56425216, used 61539584, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 117964800, free 56425216, used 61539584, increment 0
+Sequential: max memory 1849688064, total allocated 117964800, free 56425216, used 61539584, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 68.334
+340: time = 1,599000 loss = 7,915529 testLoss 7,959623
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 143654912, free 103964888, used 39690024, increment -21849560
+FALn_4 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 143654912, free 100498864, used 43156048, increment 3466024
+linearPredictor: max memory 1849688064, total allocated 143654912, free 100498864, used 43156048, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 143654912, free 100498864, used 43156048, increment 0
+Sequential: max memory 1849688064, total allocated 143654912, free 100498864, used 43156048, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+140: time = 0,661000 loss = 7,786941 testLoss 7,798248
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 133693440, free 71739072, used 61954368, increment 18798320
+FALn_4 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 133693440, free 70209616, used 63483824, increment 1529456
+linearPredictor: max memory 1849688064, total allocated 133693440, free 70209616, used 63483824, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 133693440, free 70209616, used 63483824, increment 0
+Sequential: max memory 1849688064, total allocated 133693440, free 70209616, used 63483824, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 69.865
+180: time = 0,827000 loss = 7,785163 testLoss 7,797671
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 120586240, free 26414672, used 94171568, increment 30687744
+FALn_4 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 120586240, free 23889240, used 96697000, increment 2525432
+linearPredictor: max memory 1849688064, total allocated 120586240, free 23889240, used 96697000, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 120586240, free 23889240, used 96697000, increment 0
+Sequential: max memory 1849688064, total allocated 120586240, free 23889240, used 96697000, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+140: time = 0,660000 loss = 7,819492 testLoss 7,809121
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 108527616, free 64846232, used 43681384, increment -53015616
+FALn_4 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 108527616, free 63787896, used 44739720, increment 1058336
+linearPredictor: max memory 1849688064, total allocated 108527616, free 63787896, used 44739720, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 108527616, free 63787896, used 44739720, increment 0
+Sequential: max memory 1849688064, total allocated 108527616, free 63787896, used 44739720, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+120: time = 0,254000 loss = 7,822258 testLoss 7,808359
+Res.gain: 0.4202354212845396
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 106430464, free 61241232, used 45189232, increment 449512
+FALn_4 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 106430464, free 60253032, used 46177432, increment 988200
+linearPredictor: max memory 1849688064, total allocated 106430464, free 60253032, used 46177432, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 106430464, free 60253032, used 46177432, increment 0
+Sequential: max memory 1849688064, total allocated 106430464, free 60253032, used 46177432, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 71.492
+340: time = 0,672000 loss = 8,032979 testLoss 8,041831
+Res.gain: 0.20951412782853218
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 139984896, free 76046608, used 63938288, increment 17760856
+FALn_4 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 139984896, free 76034272, used 63950624, increment 12336
+linearPredictor: max memory 1849688064, total allocated 139984896, free 76034272, used 63950624, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 139984896, free 76034272, used 63950624, increment 0
+Sequential: max memory 1849688064, total allocated 139984896, free 76034272, used 63950624, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+140: time = 0,254000 loss = 8,089624 testLoss 8,109624
+Res.gain: 0.152869100267516
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 136839168, free 40251328, used 96587840, increment 32637216
+FALn_4 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 136839168, free 40238496, used 96600672, increment 12832
+linearPredictor: max memory 1849688064, total allocated 136839168, free 40238496, used 96600672, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 136839168, free 38689688, used 98149480, increment 1548808
+Sequential: max memory 1849688064, total allocated 136839168, free 38689688, used 98149480, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+240: time = 0,442000 loss = 8,105372 testLoss 8,174652
+Res.gain: 0.13712148592473739
+getSamples: max memory 1849688064, total allocated 130023424, free 59297168, used 70726256, increment -27423224
+Making features
+makeFeatures: max memory 1849688064, total allocated 130023424, free 57816784, used 72206640, increment 1480384
+FALn_5: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 130023424, free 54958120, used 75065304, increment 2858664
+linearPredictor: max memory 1849688064, total allocated 130023424, free 54958120, used 75065304, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 130023424, free 54958120, used 75065304, increment 0
+Sequential: max memory 1849688064, total allocated 130023424, free 54958120, used 75065304, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 73.558
+200: time = 1,230000 loss = 7,790472 testLoss 7,749158
+Resulting gain: 0.4520208485034525
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_5.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_5.png
+FALn_5 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 109051904, free 50719960, used 58331944, increment -16733360
+FALn_5 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 109051904, free 49683888, used 59368016, increment 1036072
+linearPredictor: max memory 1849688064, total allocated 109051904, free 49683888, used 59368016, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 109051904, free 49683888, used 59368016, increment 0
+Sequential: max memory 1849688064, total allocated 109051904, free 49683888, used 59368016, increment 0
+Initial loss: 8.242493153187626
+120: time = 0,265000 loss = 7,823208
+Resulting gain: 0.41928524621964147
+FALn_5 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 105906176, free 40669528, used 65236648, increment 5868632
+FALn_5 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 105906176, free 39670656, used 66235520, increment 998872
+linearPredictor: max memory 1849688064, total allocated 105906176, free 39670656, used 66235520, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 105906176, free 39670656, used 66235520, increment 0
+Sequential: max memory 1849688064, total allocated 105906176, free 39670656, used 66235520, increment 0
+Initial loss: 8.242493153187626
+Time since start: 74.954
+280: time = 0,555000 loss = 8,039877
+Resulting gain: 0.2026161899861254
+FALn_5 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 100663296, free 27071792, used 73591504, increment 7355984
+FALn_5 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 100663296, free 26191632, used 74471664, increment 880160
+linearPredictor: max memory 1849688064, total allocated 100663296, free 26191632, used 74471664, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 100663296, free 26191632, used 74471664, increment 0
+Sequential: max memory 1849688064, total allocated 100663296, free 26191632, used 74471664, increment 0
+Initial loss: 8.242493153187626
+140: time = 0,256000 loss = 8,096951
+Resulting gain: 0.14554212189320204
+FALn_5 response curves
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 108003328, free 51779712, used 56223616, increment -18248048
+FALn_5 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 108003328, free 50765104, used 57238224, increment 1014608
+linearPredictor: max memory 1849688064, total allocated 108003328, free 50765104, used 57238224, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 108003328, free 50765104, used 57238224, increment 0
+Sequential: max memory 1849688064, total allocated 108003328, free 50765104, used 57238224, increment 0
+Initial loss: 8.242493153187626
+220: time = 0,413000 loss = 8,120539
+Resulting gain: 0.12195394361684819
+FALn_5 response curves
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 126353408, free 74686336, used 51667072, increment -5571152
+FALn_5 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 126353408, free 71935328, used 54418080, increment 2751008
+linearPredictor: max memory 1849688064, total allocated 126353408, free 71935328, used 54418080, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 126353408, free 71935328, used 54418080, increment 0
+Sequential: max memory 1849688064, total allocated 126353408, free 71935328, used 54418080, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 77.524
+340: time = 1,619000 loss = 7,932138 testLoss 7,813602
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 148373504, free 46463456, used 101910048, increment 47491968
+FALn_5 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 148373504, free 44661600, used 103711904, increment 1801856
+linearPredictor: max memory 1849688064, total allocated 148373504, free 44661600, used 103711904, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 148373504, free 44661600, used 103711904, increment 0
+Sequential: max memory 1849688064, total allocated 148373504, free 44661600, used 103711904, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+180: time = 0,832000 loss = 7,792363 testLoss 7,747112
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 133169152, free 8683952, used 124485200, increment 20773296
+FALn_5 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 133169152, free 5630432, used 127538720, increment 3053520
+linearPredictor: max memory 1849688064, total allocated 133169152, free 5630432, used 127538720, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 133169152, free 5630432, used 127538720, increment 0
+Sequential: max memory 1849688064, total allocated 133169152, free 5630432, used 127538720, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 79.257
+180: time = 0,856000 loss = 7,790486 testLoss 7,748947
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 119537664, free 27480256, used 92057408, increment -35481312
+FALn_5 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 119537664, free 24985056, used 94552608, increment 2495200
+linearPredictor: max memory 1849688064, total allocated 119537664, free 24985056, used 94552608, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 119537664, free 24985056, used 94552608, increment 0
+Sequential: max memory 1849688064, total allocated 119537664, free 24985056, used 94552608, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+180: time = 0,844000 loss = 7,820817 testLoss 7,796242
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 106954752, free 46299864, used 60654888, increment -33897720
+FALn_5 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 106954752, free 45315680, used 61639072, increment 984184
+linearPredictor: max memory 1849688064, total allocated 106954752, free 45315680, used 61639072, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 106954752, free 45315680, used 61639072, increment 0
+Sequential: max memory 1849688064, total allocated 106954752, free 45315680, used 61639072, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 80.369
+120: time = 0,233000 loss = 7,823208 testLoss 7,798577
+Res.gain: 0.41928524621964147
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 103809024, free 36033680, used 67775344, increment 6136272
+FALn_5 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 103809024, free 35068320, used 68740704, increment 965360
+linearPredictor: max memory 1849688064, total allocated 103809024, free 35068320, used 68740704, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 103809024, free 35068320, used 68740704, increment 0
+Sequential: max memory 1849688064, total allocated 103809024, free 35068320, used 68740704, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+280: time = 0,565000 loss = 8,039877 testLoss 7,981185
+Res.gain: 0.2026161899861254
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 98041856, free 59408904, used 38632952, increment -30107752
+FALn_5 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 98041856, free 58566752, used 39475104, increment 842152
+linearPredictor: max memory 1849688064, total allocated 98041856, free 58566752, used 39475104, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 98041856, free 58566752, used 39475104, increment 0
+Sequential: max memory 1849688064, total allocated 98041856, free 58566752, used 39475104, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+140: time = 0,256000 loss = 8,096951 testLoss 8,044508
+Res.gain: 0.14554212189320204
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 94371840, free 59931648, used 34440192, increment -5034912
+FALn_5 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 94371840, free 59822472, used 34549368, increment 109176
+linearPredictor: max memory 1849688064, total allocated 94371840, free 59792064, used 34579776, increment 30408
+FeaturedSpace: max memory 1849688064, total allocated 94371840, free 59792064, used 34579776, increment 0
+Sequential: max memory 1849688064, total allocated 94371840, free 59792064, used 34579776, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 81.629
+220: time = 0,409000 loss = 8,120539 testLoss 8,042220
+Res.gain: 0.12195394361684819
+getSamples: max memory 1849688064, total allocated 92274688, free 51218200, used 41056488, increment 6476712
+Making features
+makeFeatures: max memory 1849688064, total allocated 92274688, free 50788640, used 41486048, increment 429560
+FALn_6: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 92274688, free 47272048, used 45002640, increment 3516592
+linearPredictor: max memory 1849688064, total allocated 92274688, free 47272048, used 45002640, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 92274688, free 47272048, used 45002640, increment 0
+Sequential: max memory 1849688064, total allocated 92274688, free 47272048, used 45002640, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 83.311
+260: time = 1,555000 loss = 7,789712 testLoss 7,754990
+Resulting gain: 0.45278156554869664
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_6.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_6.png
+FALn_6 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 123731968, free 57529480, used 66202488, increment 21199848
+FALn_6 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 123731968, free 56172200, used 67559768, increment 1357280
+linearPredictor: max memory 1849688064, total allocated 123731968, free 56172200, used 67559768, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 123731968, free 56172200, used 67559768, increment 0
+Sequential: max memory 1849688064, total allocated 123731968, free 56172200, used 67559768, increment 0
+Initial loss: 8.242493153187626
+160: time = 0,329000 loss = 7,822235
+Resulting gain: 0.42025840199290077
+FALn_6 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 119013376, free 41288368, used 77725008, increment 10165240
+FALn_6 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 119013376, free 41271888, used 77741488, increment 16480
+linearPredictor: max memory 1849688064, total allocated 119013376, free 41271888, used 77741488, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 119013376, free 41271888, used 77741488, increment 0
+Sequential: max memory 1849688064, total allocated 119013376, free 41271888, used 77741488, increment 0
+Initial loss: 8.242493153187626
+Time since start: 84.872
+300: time = 0,615000 loss = 8,033861
+Resulting gain: 0.20863222460673825
+FALn_6 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 117440512, free 22432472, used 95008040, increment 17266552
+FALn_6 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 117440512, free 22297016, used 95143496, increment 135456
+linearPredictor: max memory 1849688064, total allocated 117440512, free 22266608, used 95173904, increment 30408
+FeaturedSpace: max memory 1849688064, total allocated 117440512, free 22266608, used 95173904, increment 0
+Sequential: max memory 1849688064, total allocated 117440512, free 22266608, used 95173904, increment 0
+Initial loss: 8.242493153187626
+120: time = 0,230000 loss = 8,091809
+Resulting gain: 0.15068373796692036
+FALn_6 response curves
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 109576192, free 23149320, used 86426872, increment -8747032
+FALn_6 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 109576192, free 22092616, used 87483576, increment 1056704
+linearPredictor: max memory 1849688064, total allocated 109576192, free 22092616, used 87483576, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 109576192, free 22092616, used 87483576, increment 0
+Sequential: max memory 1849688064, total allocated 109576192, free 22092616, used 87483576, increment 0
+Initial loss: 8.242493153187626
+240: time = 0,491000 loss = 8,117318
+Resulting gain: 0.1251754247976784
+FALn_6 response curves
+Time since start: 85.891
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 103809024, free 54232008, used 49577016, increment -37906560
+FALn_6 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 103809024, free 52294232, used 51514792, increment 1937776
+linearPredictor: max memory 1849688064, total allocated 103809024, free 52263824, used 51545200, increment 30408
+FeaturedSpace: max memory 1849688064, total allocated 103809024, free 52263824, used 51545200, increment 0
+Sequential: max memory 1849688064, total allocated 103809024, free 52263824, used 51545200, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 87.466
+340: time = 1,558000 loss = 7,924901 testLoss 7,880603
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 118489088, free 32154176, used 86334912, increment 34789712
+FALn_6 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 118489088, free 29575920, used 88913168, increment 2578256
+linearPredictor: max memory 1849688064, total allocated 118489088, free 29575920, used 88913168, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 118489088, free 29575920, used 88913168, increment 0
+Sequential: max memory 1849688064, total allocated 118489088, free 29575920, used 88913168, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 88.722
+260: time = 1,234000 loss = 7,791789 testLoss 7,750907
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 102760448, free 18260488, used 84499960, increment -4413208
+FALn_6 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 102760448, free 15494024, used 87266424, increment 2766464
+linearPredictor: max memory 1849688064, total allocated 102760448, free 15494024, used 87266424, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 102760448, free 15494024, used 87266424, increment 0
+Sequential: max memory 1849688064, total allocated 102760448, free 15494024, used 87266424, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 89.911
+240: time = 1,166000 loss = 7,789699 testLoss 7,755195
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 111149056, free 36598624, used 74550432, increment -12715992
+FALn_6 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 111149056, free 34427968, used 76721088, increment 2170656
+linearPredictor: max memory 1849688064, total allocated 111149056, free 34427968, used 76721088, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 111149056, free 34427968, used 76721088, increment 0
+Sequential: max memory 1849688064, total allocated 111149056, free 34427968, used 76721088, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+180: time = 0,830000 loss = 7,819795 testLoss 7,804374
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 110624768, free 13397840, used 97226928, increment 20505840
+FALn_6 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 110624768, free 12298664, used 98326104, increment 1099176
+linearPredictor: max memory 1849688064, total allocated 110624768, free 12298664, used 98326104, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 110624768, free 12298664, used 98326104, increment 0
+Sequential: max memory 1849688064, total allocated 110624768, free 12298664, used 98326104, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 91.101
+160: time = 0,322000 loss = 7,822235 testLoss 7,805795
+Res.gain: 0.42025840199290077
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 116916224, free 36266936, used 80649288, increment -17676816
+FALn_6 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 116916224, free 35053840, used 81862384, increment 1213096
+linearPredictor: max memory 1849688064, total allocated 116916224, free 35053840, used 81862384, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 116916224, free 35053840, used 81862384, increment 0
+Sequential: max memory 1849688064, total allocated 116916224, free 35053840, used 81862384, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+300: time = 0,613000 loss = 8,033861 testLoss 8,035642
+Res.gain: 0.20863222460673825
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 124256256, free 58460424, used 65795832, increment -16066552
+FALn_6 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 124256256, free 57114400, used 67141856, increment 1346024
+linearPredictor: max memory 1849688064, total allocated 124256256, free 57114400, used 67141856, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 124256256, free 57114400, used 67141856, increment 0
+Sequential: max memory 1849688064, total allocated 124256256, free 57114400, used 67141856, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+120: time = 0,225000 loss = 8,091809 testLoss 8,090806
+Res.gain: 0.15068373796692036
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 122683392, free 26709640, used 95973752, increment 28831896
+FALn_6 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1617 samples
+Density: max memory 1849688064, total allocated 122683392, free 25381104, used 97302288, increment 1328536
+linearPredictor: max memory 1849688064, total allocated 122683392, free 25381104, used 97302288, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 122683392, free 25381104, used 97302288, increment 0
+Sequential: max memory 1849688064, total allocated 122683392, free 25381104, used 97302288, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 92.413
+240: time = 0,448000 loss = 8,117318 testLoss 8,070874
+Res.gain: 0.1251754247976784
+getSamples: max memory 1849688064, total allocated 116916224, free 6989296, used 109926928, increment 12624640
+Making features
+makeFeatures: max memory 1849688064, total allocated 116916224, free 5759968, used 111156256, increment 1229328
+FALn_7: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 116916224, free 2119848, used 114796376, increment 3640120
+linearPredictor: max memory 1849688064, total allocated 116916224, free 2119848, used 114796376, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 116916224, free 2119848, used 114796376, increment 0
+Sequential: max memory 1849688064, total allocated 116916224, free 2119848, used 114796376, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 93.7
+180: time = 1,158000 loss = 7,787124 testLoss 7,778455
+Resulting gain: 0.45536868614383685
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_7.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_7.png
+FALn_7 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 115343360, free 57190896, used 58152464, increment -56643912
+FALn_7 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 115343360, free 57178712, used 58164648, increment 12184
+linearPredictor: max memory 1849688064, total allocated 115343360, free 57178712, used 58164648, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 115343360, free 57178712, used 58164648, increment 0
+Sequential: max memory 1849688064, total allocated 115343360, free 57178712, used 58164648, increment 0
+Initial loss: 8.242493153187626
+160: time = 0,310000 loss = 7,820361
+Resulting gain: 0.42213235582630304
+FALn_7 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 121110528, free 43996632, used 77113896, increment 18949248
+FALn_7 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 121110528, free 42768584, used 78341944, increment 1228048
+linearPredictor: max memory 1849688064, total allocated 121110528, free 42768584, used 78341944, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 121110528, free 42768584, used 78341944, increment 0
+Sequential: max memory 1849688064, total allocated 121110528, free 42768584, used 78341944, increment 0
+Initial loss: 8.242493153187626
+Time since start: 95.152
+260: time = 0,527000 loss = 8,037058
+Resulting gain: 0.20543516757222768
+FALn_7 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 113770496, free 47491024, used 66279472, increment -12062472
+FALn_7 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 113770496, free 47482176, used 66288320, increment 8848
+linearPredictor: max memory 1849688064, total allocated 113770496, free 47482176, used 66288320, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 113770496, free 46401632, used 67368864, increment 1080544
+Sequential: max memory 1849688064, total allocated 113770496, free 46401632, used 67368864, increment 0
+Initial loss: 8.242493153187626
+120: time = 0,231000 loss = 8,091469
+Resulting gain: 0.15102429173536436
+FALn_7 response curves
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 105906176, free 45804280, used 60101896, increment -7266968
+FALn_7 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 105906176, free 44746112, used 61160064, increment 1058168
+linearPredictor: max memory 1849688064, total allocated 105906176, free 44746112, used 61160064, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 105906176, free 44746112, used 61160064, increment 0
+Sequential: max memory 1849688064, total allocated 105906176, free 44746112, used 61160064, increment 0
+Initial loss: 8.242493153187626
+220: time = 0,405000 loss = 8,109750
+Resulting gain: 0.13274340173619237
+FALn_7 response curves
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 104857600, free 46767856, used 58089744, increment -3070320
+FALn_7 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 104857600, free 43878864, used 60978736, increment 2888992
+linearPredictor: max memory 1849688064, total allocated 104857600, free 43878864, used 60978736, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 104857600, free 43878864, used 60978736, increment 0
+Sequential: max memory 1849688064, total allocated 104857600, free 43878864, used 60978736, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 97.6
+320: time = 1,548000 loss = 7,922054 testLoss 7,902208
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 113770496, free 43372488, used 70398008, increment 9419272
+FALn_7 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 113770496, free 42119448, used 71651048, increment 1253040
+linearPredictor: max memory 1849688064, total allocated 113770496, free 42089040, used 71681456, increment 30408
+FeaturedSpace: max memory 1849688064, total allocated 113770496, free 42089040, used 71681456, increment 0
+Sequential: max memory 1849688064, total allocated 113770496, free 42089040, used 71681456, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+160: time = 0,767000 loss = 7,788362 testLoss 7,782494
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 131596288, free 85352784, used 46243504, increment -25437952
+FALn_7 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 131596288, free 82245744, used 49350544, increment 3107040
+linearPredictor: max memory 1849688064, total allocated 131596288, free 82245744, used 49350544, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 131596288, free 82245744, used 49350544, increment 0
+Sequential: max memory 1849688064, total allocated 131596288, free 82245744, used 49350544, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 99.234
+180: time = 0,812000 loss = 7,787116 testLoss 7,778473
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 135266304, free 47334888, used 87931416, increment 38580872
+FALn_7 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 135266304, free 45726208, used 89540096, increment 1608680
+linearPredictor: max memory 1849688064, total allocated 135266304, free 45726208, used 89540096, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 135266304, free 45726208, used 89540096, increment 0
+Sequential: max memory 1849688064, total allocated 135266304, free 45726208, used 89540096, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+160: time = 0,744000 loss = 7,818209 testLoss 7,818449
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 122159104, free 10696024, used 111463080, increment 21922984
+FALn_7 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 122159104, free 9318624, used 112840480, increment 1377400
+linearPredictor: max memory 1849688064, total allocated 122159104, free 9318624, used 112840480, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 122159104, free 9318624, used 112840480, increment 0
+Sequential: max memory 1849688064, total allocated 122159104, free 9318624, used 112840480, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 100.319
+160: time = 0,309000 loss = 7,820361 testLoss 7,824285
+Res.gain: 0.42213235582630304
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 116916224, free 65818160, used 51098064, increment -61742416
+FALn_7 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 116916224, free 64594440, used 52321784, increment 1223720
+linearPredictor: max memory 1849688064, total allocated 116916224, free 64594440, used 52321784, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 116916224, free 64594440, used 52321784, increment 0
+Sequential: max memory 1849688064, total allocated 116916224, free 64594440, used 52321784, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+260: time = 0,495000 loss = 8,037058 testLoss 8,004736
+Res.gain: 0.20543516757222768
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 111149056, free 19188504, used 91960552, increment 39638768
+FALn_7 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 111149056, free 19170288, used 91978768, increment 18216
+linearPredictor: max memory 1849688064, total allocated 111149056, free 19170288, used 91978768, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 111149056, free 19170288, used 91978768, increment 0
+Sequential: max memory 1849688064, total allocated 111149056, free 19170288, used 91978768, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+120: time = 0,225000 loss = 8,091469 testLoss 8,093481
+Res.gain: 0.15102429173536436
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 108003328, free 31624120, used 76379208, increment -15599560
+FALn_7 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 108003328, free 30555872, used 77447456, increment 1068248
+linearPredictor: max memory 1849688064, total allocated 108003328, free 30555872, used 77447456, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 108003328, free 30555872, used 77447456, increment 0
+Sequential: max memory 1849688064, total allocated 108003328, free 30555872, used 77447456, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 101.471
+220: time = 0,407000 loss = 8,109750 testLoss 8,135887
+Res.gain: 0.13274340173619237
+getSamples: max memory 1849688064, total allocated 102760448, free 43283064, used 59477384, increment -17970072
+Making features
+makeFeatures: max memory 1849688064, total allocated 102760448, free 42975432, used 59785016, increment 307632
+FALn_8: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 102760448, free 39093552, used 63666896, increment 3881880
+linearPredictor: max memory 1849688064, total allocated 102760448, free 39093552, used 63666896, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 102760448, free 39093552, used 63666896, increment 0
+Sequential: max memory 1849688064, total allocated 102760448, free 39093552, used 63666896, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 102.795
+200: time = 1,180000 loss = 7,788696 testLoss 7,762843
+Resulting gain: 0.4537971748171321
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_8.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_8.png
+FALn_8 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 150470656, free 97139504, used 53331152, increment -10335744
+FALn_8 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 150470656, free 95613296, used 54857360, increment 1526208
+linearPredictor: max memory 1849688064, total allocated 150470656, free 95613296, used 54857360, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 150470656, free 95613296, used 54857360, increment 0
+Sequential: max memory 1849688064, total allocated 150470656, free 95613296, used 54857360, increment 0
+Initial loss: 8.242493153187626
+Time since start: 103.814
+160: time = 0,389000 loss = 7,822604
+Resulting gain: 0.4198886546641818
+FALn_8 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 158859264, free 122829360, used 36029904, increment -18827456
+FALn_8 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 158859264, free 121151312, used 37707952, increment 1678048
+linearPredictor: max memory 1849688064, total allocated 158859264, free 121151312, used 37707952, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 158859264, free 121151312, used 37707952, increment 0
+Sequential: max memory 1849688064, total allocated 158859264, free 121151312, used 37707952, increment 0
+Initial loss: 8.242493153187626
+200: time = 0,508000 loss = 8,038080
+Resulting gain: 0.2044130227959453
+FALn_8 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 171966464, free 46046280, used 125920184, increment 88212232
+FALn_8 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 167772160, free 136275488, used 31496672, increment -94423512
+linearPredictor: max memory 1849688064, total allocated 167772160, free 136275488, used 31496672, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 167772160, free 136275488, used 31496672, increment 0
+Sequential: max memory 1849688064, total allocated 167772160, free 136275488, used 31496672, increment 0
+Initial loss: 8.242493153187626
+140: time = 0,297000 loss = 8,094196
+Resulting gain: 0.14829754379805316
+FALn_8 response curves
+Time since start: 104.839
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 165150720, free 110169440, used 54981280, increment 23484608
+FALn_8 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 165150720, free 110154984, used 54995736, increment 14456
+linearPredictor: max memory 1849688064, total allocated 165150720, free 110154984, used 54995736, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 165150720, free 110154984, used 54995736, increment 0
+Sequential: max memory 1849688064, total allocated 165150720, free 110154984, used 54995736, increment 0
+Initial loss: 8.242493153187626
+240: time = 0,449000 loss = 8,111865
+Resulting gain: 0.130627811569882
+FALn_8 response curves
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 158859264, free 67570872, used 91288392, increment 36292656
+FALn_8 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 158859264, free 65904808, used 92954456, increment 1666064
+linearPredictor: max memory 1849688064, total allocated 158859264, free 65904808, used 92954456, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 158859264, free 65904808, used 92954456, increment 0
+Sequential: max memory 1849688064, total allocated 158859264, free 65904808, used 92954456, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 107.183
+380: time = 1,760000 loss = 7,924944 testLoss 7,875303
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 143654912, free 76005608, used 67649304, increment -25305152
+FALn_8 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 143654912, free 73247208, used 70407704, increment 2758400
+linearPredictor: max memory 1849688064, total allocated 143654912, free 73247208, used 70407704, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 143654912, free 73247208, used 70407704, increment 0
+Sequential: max memory 1849688064, total allocated 143654912, free 73247208, used 70407704, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 108.21
+220: time = 1,001000 loss = 7,790514 testLoss 7,762794
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 155713536, free 100376320, used 55337216, increment -15070488
+FALn_8 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 155713536, free 98718296, used 56995240, increment 1658024
+linearPredictor: max memory 1849688064, total allocated 155713536, free 98718296, used 56995240, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 155713536, free 98718296, used 56995240, increment 0
+Sequential: max memory 1849688064, total allocated 155713536, free 98718296, used 56995240, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 109.429
+260: time = 1,195000 loss = 7,788651 testLoss 7,763183
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 136314880, free 78050456, used 58264424, increment 1269184
+FALn_8 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 136314880, free 75564744, used 60750136, increment 2485712
+linearPredictor: max memory 1849688064, total allocated 136314880, free 75564744, used 60750136, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 136314880, free 75564744, used 60750136, increment 0
+Sequential: max memory 1849688064, total allocated 136314880, free 75564744, used 60750136, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+180: time = 0,822000 loss = 7,820448 testLoss 7,797441
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 153092096, free 79208664, used 73883432, increment 13133296
+FALn_8 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 153092096, free 77605432, used 75486664, increment 1603232
+linearPredictor: max memory 1849688064, total allocated 153092096, free 77605432, used 75486664, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 153092096, free 77605432, used 75486664, increment 0
+Sequential: max memory 1849688064, total allocated 153092096, free 77605432, used 75486664, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 110.597
+160: time = 0,312000 loss = 7,822604 testLoss 7,802510
+Res.gain: 0.4198886546641818
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 148373504, free 90738248, used 57635256, increment -17851408
+FALn_8 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 148373504, free 89243680, used 59129824, increment 1494568
+linearPredictor: max memory 1849688064, total allocated 148373504, free 89243680, used 59129824, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 148373504, free 89243680, used 59129824, increment 0
+Sequential: max memory 1849688064, total allocated 148373504, free 89243680, used 59129824, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+200: time = 0,400000 loss = 8,038080 testLoss 7,996679
+Res.gain: 0.2044130227959453
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 144179200, free 62232776, used 81946424, increment 22816600
+FALn_8 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 144179200, free 60847896, used 83331304, increment 1384880
+linearPredictor: max memory 1849688064, total allocated 144179200, free 60847896, used 83331304, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 144179200, free 60847896, used 83331304, increment 0
+Sequential: max memory 1849688064, total allocated 144179200, free 60847896, used 83331304, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+140: time = 0,261000 loss = 8,094196 testLoss 8,069063
+Res.gain: 0.14829754379805316
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 139984896, free 80750312, used 59234584, increment -24096720
+FALn_8 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 139984896, free 79445640, used 60539256, increment 1304672
+linearPredictor: max memory 1849688064, total allocated 139984896, free 79445640, used 60539256, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 139984896, free 79445640, used 60539256, increment 0
+Sequential: max memory 1849688064, total allocated 139984896, free 79445640, used 60539256, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 111.752
+240: time = 0,462000 loss = 8,111865 testLoss 8,116761
+Res.gain: 0.130627811569882
+getSamples: max memory 1849688064, total allocated 135790592, free 61482424, used 74308168, increment 13768912
+Making features
+makeFeatures: max memory 1849688064, total allocated 135790592, free 61449952, used 74340640, increment 32472
+FALn_9: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 135790592, free 57787288, used 78003304, increment 3662664
+linearPredictor: max memory 1849688064, total allocated 135790592, free 57787288, used 78003304, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 135790592, free 57787288, used 78003304, increment 0
+Sequential: max memory 1849688064, total allocated 135790592, free 57787288, used 78003304, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 113.842
+340: time = 1,970000 loss = 7,783285 testLoss 7,812861
+Resulting gain: 0.4592085900707774
+Projecting...
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_9.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_9.png
+FALn_9 response curves
+Response curve: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 155189248, free 67414720, used 87774528, increment 9771224
+FALn_9 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 155189248, free 65778816, used 89410432, increment 1635904
+linearPredictor: max memory 1849688064, total allocated 155189248, free 65778816, used 89410432, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 155189248, free 65778816, used 89410432, increment 0
+Sequential: max memory 1849688064, total allocated 155189248, free 65778816, used 89410432, increment 0
+Initial loss: 8.242493153187626
+Time since start: 114.923
+300: time = 0,555000 loss = 7,816122
+Resulting gain: 0.4263715053814119
+FALn_9 response curves
+Response curve: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 148373504, free 34022512, used 114350992, increment 24940560
+FALn_9 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 148373504, free 32580496, used 115793008, increment 1442016
+linearPredictor: max memory 1849688064, total allocated 148373504, free 32580496, used 115793008, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 148373504, free 32580496, used 115793008, increment 0
+Sequential: max memory 1849688064, total allocated 148373504, free 32580496, used 115793008, increment 0
+Initial loss: 8.242493153187626
+280: time = 0,570000 loss = 8,027684
+Resulting gain: 0.2148092306772984
+FALn_9 response curves
+Response curve: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 142606336, free 66449640, used 76156696, increment -39636312
+FALn_9 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 142606336, free 65134160, used 77472176, increment 1315480
+linearPredictor: max memory 1849688064, total allocated 142606336, free 65134160, used 77472176, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 142606336, free 65134160, used 77472176, increment 0
+Sequential: max memory 1849688064, total allocated 142606336, free 65134160, used 77472176, increment 0
+Initial loss: 8.242493153187626
+Time since start: 115.988
+180: time = 0,330000 loss = 8,091184
+Resulting gain: 0.15130934972405008
+FALn_9 response curves
+Response curve: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 139984896, free 41593200, used 98391696, increment 20919520
+FALn_9 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 139984896, free 41583520, used 98401376, increment 9680
+linearPredictor: max memory 1849688064, total allocated 139984896, free 41583520, used 98401376, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 139984896, free 40377504, used 99607392, increment 1206016
+Sequential: max memory 1849688064, total allocated 139984896, free 40377504, used 99607392, increment 0
+Initial loss: 8.242493153187626
+220: time = 0,417000 loss = 8,111351
+Resulting gain: 0.13114257226117765
+FALn_9 response curves
+Jackknife: leave Clorofila out
+Making features
+makeFeatures: max memory 1849688064, total allocated 131072000, free 15534184, used 115537816, increment 15930424
+FALn_9 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 131072000, free 12129568, used 118942432, increment 3404616
+linearPredictor: max memory 1849688064, total allocated 131072000, free 12129568, used 118942432, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 131072000, free 12129568, used 118942432, increment 0
+Sequential: max memory 1849688064, total allocated 131072000, free 12129568, used 118942432, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 118.276
+360: time = 1,654000 loss = 7,917907 testLoss 7,938410
+Jackknife: leave Profmezcla out
+Making features
+makeFeatures: max memory 1849688064, total allocated 145227776, free 44894616, used 100333160, increment -18609272
+FALn_9 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 145227776, free 42068160, used 103159616, increment 2826456
+linearPredictor: max memory 1849688064, total allocated 145227776, free 42068160, used 103159616, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 145227776, free 42068160, used 103159616, increment 0
+Sequential: max memory 1849688064, total allocated 145227776, free 42068160, used 103159616, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 119.747
+320: time = 1,446000 loss = 7,784670 testLoss 7,814315
+Jackknife: leave Salinidad out
+Making features
+makeFeatures: max memory 1849688064, total allocated 134742016, free 7138968, used 127603048, increment 24443432
+FALn_9 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 134742016, free 4703032, used 130038984, increment 2435936
+linearPredictor: max memory 1849688064, total allocated 134742016, free 4703032, used 130038984, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 134742016, free 4703032, used 130038984, increment 0
+Sequential: max memory 1849688064, total allocated 134742016, free 4703032, used 130038984, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 121.208
+320: time = 1,439000 loss = 7,783318 testLoss 7,813106
+Jackknife: leave Temperatura out
+Making features
+makeFeatures: max memory 1849688064, total allocated 131072000, free 6427264, used 124644736, increment -5394248
+FALn_9 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 131072000, free 4109776, used 126962224, increment 2317488
+linearPredictor: max memory 1849688064, total allocated 131072000, free 4109776, used 126962224, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 131072000, free 4109776, used 126962224, increment 0
+Sequential: max memory 1849688064, total allocated 131072000, free 4109776, used 126962224, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 122.849
+360: time = 1,619000 loss = 7,813238 testLoss 7,863634
+Jackknife: only Clorofila
+Making features
+makeFeatures: max memory 1849688064, total allocated 125304832, free 69054160, used 56250672, increment -70711552
+FALn_9 Clorofila: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 125304832, free 67727744, used 57577088, increment 1326416
+linearPredictor: max memory 1849688064, total allocated 125304832, free 67727744, used 57577088, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 125304832, free 67727744, used 57577088, increment 0
+Sequential: max memory 1849688064, total allocated 125304832, free 67727744, used 57577088, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+300: time = 0,557000 loss = 7,816122 testLoss 7,859485
+Res.gain: 0.4263715053814119
+Jackknife: only Profmezcla
+Making features
+makeFeatures: max memory 1849688064, total allocated 132644864, free 105556496, used 27088368, increment -30488720
+FALn_9 Profmezcla: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 132644864, free 105544000, used 27100864, increment 12496
+linearPredictor: max memory 1849688064, total allocated 132644864, free 105544000, used 27100864, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 132644864, free 105544000, used 27100864, increment 0
+Sequential: max memory 1849688064, total allocated 132644864, free 105544000, used 27100864, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 123.971
+280: time = 0,540000 loss = 8,027684 testLoss 8,089230
+Res.gain: 0.2148092306772984
+Jackknife: only Salinidad
+Making features
+makeFeatures: max memory 1849688064, total allocated 126877696, free 78188440, used 48689256, increment 21588392
+FALn_9 Salinidad: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 126877696, free 76815672, used 50062024, increment 1372768
+linearPredictor: max memory 1849688064, total allocated 126877696, free 76815672, used 50062024, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 126877696, free 76815672, used 50062024, increment 0
+Sequential: max memory 1849688064, total allocated 126877696, free 76815672, used 50062024, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+180: time = 0,333000 loss = 8,091184 testLoss 8,095766
+Res.gain: 0.15130934972405008
+Jackknife: only Temperatura
+Making features
+makeFeatures: max memory 1849688064, total allocated 122159104, free 61636360, used 60522744, increment 10460720
+FALn_9 Temperatura: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+1618 samples
+Density: max memory 1849688064, total allocated 122159104, free 60338672, used 61820432, increment 1297688
+linearPredictor: max memory 1849688064, total allocated 122159104, free 60338672, used 61820432, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 122159104, free 60338672, used 61820432, increment 0
+Sequential: max memory 1849688064, total allocated 122159104, free 60338672, used 61820432, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+220: time = 0,411000 loss = 8,111351 testLoss 8,121643
+Res.gain: 0.13114257226117765
+Time since start: 124.992
+Creating average grid, stddev grid etc.
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_avg.asc
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_stddev.asc
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_min.asc
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_max.asc
+Writing file C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\FALn_median.asc
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_avg.png
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_stddev.png
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_min.png
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_max.png
+Writing C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\plots\FALn_median.png
+FALn average response curves
+Time since start: 126.488
+Ending

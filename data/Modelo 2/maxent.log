@@ -1,0 +1,55 @@
+Thu Nov 27 12:35:51 COT 2025
+MaxEnt version 3.4.4
+Checking header of C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Clorofila.asc
+Checking header of C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Profmezcla.asc
+Checking header of C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Salinidad.asc
+Checking header of C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales\Temperatura.asc
+Reading samples from SPZ2021-2024.csv
+Read samples: max memory 1849688064, total allocated 167772160, free 36358184, used 131413976, increment 33227784
+Extractor: max memory 1849688064, total allocated 167772160, free 36349808, used 131422352, increment 8376
+Extracting random background and sample data
+Warning: Sample at -105.5, 19.5 in SPZ2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -105.5, 19.5 which has no environmental data
+Warning: Sample at -87.5, 11.5 in SPZ2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -87.5, 11.5 which has no environmental data
+Warning: Sample at -81.5, -5.5 in SPZ2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -81.5, -5.5 which has no environmental data
+Warning: Sample at -81.5, -6.5 in SPZ2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -81.5, -6.5 which has no environmental data
+Warning: Sample at -80.5, -8.5 in SPZ2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -80.5, -8.5 which has no environmental data
+Warning: Sample at -76.5, -15.5 in SPZ2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -76.5, -15.5 which has no environmental data
+Warning: Sample at -73.5, -17.5 in SPZ2021-2024.csv is missing some environmental data (e.g. Clorofila)
+Warning: Skipping sample at -73.5, -17.5 which has no environmental data
+3799 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\Modelo 2" "samplesfile=C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Especies para modelar\SPZ2021-2024.csv" "environmentallayers=C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales" betamultiplier=2.0 maximumbackground=20000 replicates=10 -N Prpesca
+Species: SPZn_0 SPZn_1 SPZn_2 SPZn_3 SPZn_4 SPZn_5 SPZn_6 SPZn_7 SPZn_8 SPZn_9
+Layers: Clorofila Profmezcla Salinidad Temperatura
+Layertypes: Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Resultados\Modelo 2
+samplesfile: C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\Especies para modelar\SPZ2021-2024.csv
+environmentallayers: C:\Users\ktapia\Desktop\ohwe25-proy1-pesca-main\data\variables ambientales
+betamultiplier: 2.0
+maximumbackground: 20000
+replicates: 10
+
+getSamples: max memory 1849688064, total allocated 167772160, free 34435768, used 133336392, increment 1914040
+Making features
+makeFeatures: max memory 1849688064, total allocated 167772160, free 34398704, used 133373456, increment 37064
+SPZn_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+221 samples
+Density: max memory 1849688064, total allocated 167772160, free 31076744, used 136695416, increment 3321960
+linearPredictor: max memory 1849688064, total allocated 167772160, free 31076744, used 136695416, increment 0
+FeaturedSpace: max memory 1849688064, total allocated 167772160, free 31076744, used 136695416, increment 0
+Sequential: max memory 1849688064, total allocated 167772160, free 31076744, used 136695416, increment 0
+Initial loss: 8.242493153187626
+Initial test loss: 8.242493153187626
+Time since start: 1.6
+Interrupted
+Ending
