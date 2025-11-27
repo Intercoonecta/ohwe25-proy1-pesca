@@ -1,13 +1,16 @@
 fh <- read.csv("D:/ohwe2025/fh_2021_2024.csv")
 
-# En el data.frame fh, generar columnas lat.e y lon.e a partir de Lat y Lon pero descartando decimales. Poner en formato de matriz los datos de Apparent.Fishing. Hours de cuardo con lon.e (en columnas) y lat.e (en filas). Graficar como imagen
+# En el data.frame fh, generar columnas lat.e y lon.e a partir de Lat y Lon, 
+# descartando decimales. 
+# Poner en formato de matriz los datos de Apparent.Fishing.Hours de acuerdo con
+# lon.e (en columnas) y lat.e (en filas).
 
 fh$lat.e <- floor(fh$Lat)
 fh$lon.e <- floor(fh$Lon)
 library(reshape2)
 fh_matrix <- tapply(fh$Apparent.Fishing.Hours, list(fh$lon.e, fh$lat.e), mean, na.rm = TRUE)
 
-image(fh_matrix)
+#image(fh_matrix)
 
 # quitar renglones y columnas extra
 dim(fh_matrix)
